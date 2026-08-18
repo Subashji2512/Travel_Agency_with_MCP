@@ -1,4 +1,4 @@
-# ✈️ AI Travel Planning System using LangGraph + MCP
+# ✈️ AI Multi-Agent Travel Planner + MCP
 
 An AI-powered **multi-agent travel planning system** built with **LangGraph, Groq, MCP, SerpAPI, AviationStack, and PostgreSQL**.
 
