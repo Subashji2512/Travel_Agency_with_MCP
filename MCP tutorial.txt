@@ -1,0 +1,34 @@
+To create an MCP server we need to create an MCP client
+
+create mcp.py
+
+install langchain-mcp-adapters(LangChain MCP Adapters is an official library that bridges Anthropic's
+  Model Context Protocol (MCP) with LangChain and LangGraph)
+
+MCP client is used to interact with the servers
+
+asyncio - to make the code to do other tasks when the client and server have a gap while recieving and sending info...
+
+## Remote MCP server 
+
+The MCP server provided by the Api provider so we can use them and we can replace it with te tool code , check the main and mcp_client.py
+to know about the connecting the server and how to use it 
+
+## Local MCP server 
+
+Sometimes the API provider will not have an MCP server so either we can create a customized one or clone it from the github
+
+1) Go to github and search for the MCP repo 
+
+2)clone them and in terminal direct to the repo folder and install uv and check the version 
+
+3) copy the .env and paste it on the repo folder
+
+4) in terminal run "uv sync" to create the virtual env with .venv and install all the packages need for the local MCP to run
+
+5) run the MCP server usig the cmd : "uv run -m aviationstack_mcp mcp run"
+
+6) Create an local_mcp.py for the local mcp and do the same done in the mcp_client.py and we can know the list of tools provided by them
+
+7) copy the code of the local mcp and paste it on the mcp_client and use that on the main.py
+

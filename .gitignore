@@ -1,0 +1,6 @@
+.env
+.venv/
+aviationstack-mcp/
+.gitattributes
+__pycache__/
+*.pyc
