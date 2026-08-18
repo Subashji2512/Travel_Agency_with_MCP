@@ -1,0 +1,50 @@
+# ===========================
+# LLM
+# ===========================
+langchain
+langchain-core
+langchain-groq
+
+# ===========================
+# LangGraph
+# ===========================
+langgraph
+langgraph-checkpoint-postgres
+
+# ===========================
+# Database
+# ===========================
+psycopg[binary]
+
+# ===========================
+# Search APIs
+# ===========================
+tavily-python
+google-search-results
+
+# ===========================
+# Environment Variables
+# ===========================
+python-dotenv
+
+# ===========================
+# HTTP Requests
+# ===========================
+requests
+
+# ===========================
+# Data Validation (Optional but Recommended)
+# ===========================
+pydantic
+
+# ===========================
+# Jupyter Notebook
+# ===========================
+jupyter
+ipykernel
+
+# ===========================
+# MCP
+# ===========================
+
+langchain_mcp_adapters
