@@ -8,7 +8,7 @@ https://github.com/Subashji2512/Travel_Agency.git
 Requirements
 APIs
 Groq API: https://console.groq.com
-Serp API: https://www.tavily.com/
+Serp API: https://www.serpapi.com/
 AviationStack API: https://aviationstack.com/
 Tools
 PostgreSQL
