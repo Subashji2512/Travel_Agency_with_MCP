@@ -351,31 +351,6 @@ A `thread_id` is used to identify a conversation and maintain its state.
 
 ---
 
-# 🔄 Complete Workflow
-
-```text
-User
- │
- ▼
-Travel Request
- │
- ├───────────────┐
- ▼               ▼
-Flight Agent   Hotel Agent
- │               │
- ▼               ▼
-Aviation MCP    Serp MCP
- │               │
- └───────┬───────┘
-         ▼
-  Itinerary Agent
-         │
-         ▼
-    Final Agent
-         │
-         ▼
-  Final Travel Plan
-```
 
 ---
 
